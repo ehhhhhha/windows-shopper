@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61605F9120F8E9BD00D567CE /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61605F9020F8E9BD00D567CE /* CurrencyTxtField.swift */; };
 		61AA9DB120F8E21900068085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA9DB020F8E21900068085 /* AppDelegate.swift */; };
-		61AA9DB320F8E21900068085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA9DB220F8E21900068085 /* ViewController.swift */; };
+		61AA9DB320F8E21900068085 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA9DB220F8E21900068085 /* MainVC.swift */; };
 		61AA9DB620F8E21900068085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AA9DB420F8E21900068085 /* Main.storyboard */; };
 		61AA9DB820F8E21A00068085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AA9DB720F8E21A00068085 /* Assets.xcassets */; };
 		61AA9DBB20F8E21A00068085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AA9DB920F8E21A00068085 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61605F9020F8E9BD00D567CE /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 		61AA9DAD20F8E21900068085 /* windows-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "windows-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AA9DB020F8E21900068085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61AA9DB220F8E21900068085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61AA9DB220F8E21900068085 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		61AA9DB520F8E21900068085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61AA9DB720F8E21A00068085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61AA9DBA20F8E21A00068085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +37,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61605F8E20F8E73200D567CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				61AA9DB220F8E21900068085 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		61605F8F20F8E97700D567CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61605F9020F8E9BD00D567CE /* CurrencyTxtField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		61AA9DA420F8E21900068085 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +72,9 @@
 		61AA9DAF20F8E21900068085 /* windows-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				61605F8F20F8E97700D567CE /* Views */,
+				61605F8E20F8E73200D567CE /* Controller */,
 				61AA9DB020F8E21900068085 /* AppDelegate.swift */,
-				61AA9DB220F8E21900068085 /* ViewController.swift */,
 				61AA9DB420F8E21900068085 /* Main.storyboard */,
 				61AA9DB720F8E21A00068085 /* Assets.xcassets */,
 				61AA9DB920F8E21A00068085 /* LaunchScreen.storyboard */,
@@ -135,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61AA9DB320F8E21900068085 /* ViewController.swift in Sources */,
+				61605F9120F8E9BD00D567CE /* CurrencyTxtField.swift in Sources */,
+				61AA9DB320F8E21900068085 /* MainVC.swift in Sources */,
 				61AA9DB120F8E21900068085 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
